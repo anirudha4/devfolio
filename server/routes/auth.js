@@ -1,9 +1,8 @@
-const { signIn, signUp, getUser } = require('../controllers/auth');
-const { verify } = require('../middlewares/auth');
-
-
 // requires
 const router = require('express').Router();
+
+const { signIn, signUp, getUser } = require('../controllers/auth');
+const { verify } = require('../middlewares/auth');
 
 // routes
 router.post('/sign-in', signIn);

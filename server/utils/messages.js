@@ -13,3 +13,16 @@ exports.AUTH_MESSAGES = {
     USER_NOT_VERIFIED: 'User not verified, Please verify your email',
     USER_FOUND: 'Session Restored.',
 }
+
+exports.PORTFOLIO_MESSAGES = {
+    REQUIRED: 'Please fill all fields',
+    CREATE_SUCCESS: 'Portfolio created successfully',
+}
+exports.PROJECT_MESSAGES = {
+    REQUIRED: 'Please fill all fields',
+    CREATE_SUCCESS: 'Project created successfully',
+}
+exports.EXPERIENCE_MESSAGES = {
+    REQUIRED: 'Please fill all fields',
+    CREATE_SUCCESS: 'Experience created successfully',
+}
