@@ -11,10 +11,9 @@ app.use(cors());
 // Parse incoming JSON data
 app.use(bodyParser.json());
 
-// Use a router for todo endpoints
-const todoRouter = require('./routes/todos'); // Replace with your actual todo router path
-app.use('/todos', todoRouter);
+const routes = require('./routes');
+app.use('/api/v1', routes);
 
 // Start the server
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 app.listen(port, () => console.log(`Server listening on port ${port}`));

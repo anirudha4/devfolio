@@ -3,7 +3,7 @@ import { PATHS } from "./utils/constants"
 import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Register from "./pages/Register"
-import Navbar from "./components/common/Navbar"
+import { Navbar } from "./components/common"
 
 const App = () => {
   return (
